@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Univerity Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- gå in på font och välj tysnitt, kolla videon 13,57min-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="Loga.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Calander.html">calender</a></li>
+          <li><a href="tid.html">Time</a></li>
+          <li><a href="fordon.html">Vehicle</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"> </i>
+    </nav>
+
+<div class="text-box">
+    <h1>Choose your travel</h1>
+    <p>A website to make your tarvels easier</p>
+    <a href="" class="hero-btn">CONFIRM YOUR BOOKING</a>
+
+</div>
+
+  </section>
+    <!--Course-->
+
+    <section class="course">
+        <h1>INFORMATION</h1>
+    <p>Click here to find more information</p>
+    </section>
+  
+
+<!--javascript for toggle menu-->
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+
+</script>
+
+</body>
+</html>

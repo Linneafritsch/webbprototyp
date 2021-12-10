@@ -1,0 +1,50 @@
+body{
+    background: white;
+
+
+}
+.calander {
+    margin: auto;
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+}
+.month{
+    text-align: center;
+    background: white;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: black;
+    border: 2px solid red;
+
+}
+
+table, th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-family: bold;
+
+}
+tr, th, td{
+    padding: 15px
+}
+th{
+    background: #006999;
+    color: white;
+    font-family: bold; 
+}
+td{
+    background: #00264d;
+    color: white;
+
+
+}
+td:hover{
+   background:#006999;
+
+}
